@@ -1,3 +1,5 @@
+/* Try to avoid px unit as much as possible, always prefer %, rem, vh, vw */
+
 Body{
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -1,17 +1,30 @@
-<html>
+<!-- 
+The name of main html file must be index.html
+All the images must be placed in the folder named assets/public/media
+  -->
+
+  <!-- Please use vscode extension "prettier" to format the code -->
+
+  <!-- use DocType at the top -->
+<html> 
 <head>
+    <!-- add title in the head, understand the purpose of head, meta and link tag -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- please use semantic tags -->
    <div class="sectionone">
     <h1>Hi, my name is <mark class="colorone">Your</mark> <mark class="colortwo">Name</mark></h1>
     <h1>I'm the Unknown Developer.</h1>
+    <!-- there should be only one h1 tag in the whole DOM tree -->
     <button><mark class="colorone">Know</mark> <mark class="colortwo">more</mark></button>
 </div>
 
+<!-- semantic tag -->
     <div class="sectiontwo">
         <h1>ABOUT ME</h1>
+        <!-- h1 tag -->
         <div class="sections">
         <div class="firsthalf">
              <img src="/images/aboutme.jpg" />
@@ -28,6 +41,7 @@
         </div>
 
     </div>
+    <!-- semantic tag -->
     <div class="sectionthree">
         <h1 style="text-align: center;">PROJECTS</h1>
         <div class="projects">
@@ -85,13 +99,14 @@
         </div>
     </div>
    
-
+<!-- semantic tag -->
 <div class="contact">
+    <!-- h1 tag -->
    <h1>CONTACT</h1>
    <p>[put your call to action here]</p>
 <button>Call to Action</button>
 </div>
-   
+   <!-- semantic tag -->
 <div class="footer">
    
     <i class="fa fa-angle-up" style="color:white;margin: 20px;"></i>
