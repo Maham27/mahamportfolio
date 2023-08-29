@@ -1,0 +1,235 @@
+Body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.sectionone{
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-bottom: 150px;
+}
+.sectionone h1{
+    margin: 0px;
+}
+
+mark.colorone{
+    color: #00CED1;
+    background: none;
+}
+
+mark.colortwo{
+    color: #9ba8a6;
+    background: none;
+}
+
+.sectionone button{
+    margin-top: 10px;
+    border: 1.5px solid #9ba8a6;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.sectiontwo
+{
+     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background: linear-gradient(to right,#00CED1,#9ba8a6);
+    padding-top: 10px;
+    padding-bottom: 130px;
+     color:white;
+}
+.sections {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sectiontwo h1{
+     text-align: center;
+    
+}
+.firsthalf img
+{
+    height: 180px;
+    width:300px;
+}
+.firsthalf{
+
+ margin-top:30px;
+
+}
+.secondhalf{
+   width: 40%;
+}
+.secondhalf button{
+    margin-top: 10px;
+    border: 1.5px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.projects{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+.projectsinfo {
+  width: 30%;
+  
+}
+.projectsinfo span{
+    color: #00CED1;
+    font-weight: bolder;
+}
+
+.projects h2{
+    margin-top: 0px;
+}
+
+.projects img
+{
+    height: 250px;
+    width:500px;
+    margin-right: 10px;
+    box-shadow: 0.5px 0.5px 10px 0px rgba(139, 137, 137, 0.5),-0.5px -0.5px 10px 0px rgba(139, 137, 137, 0.5); 
+  
+}
+.projects button{
+    
+    border: 1.5px solid #9ba8a6;
+    background-color: transparent;
+    color:#9ba8a6;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 5px;
+}
+.contact
+{
+    background: linear-gradient(to left, #9ba8a6,#00CED1);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+}
+.contact button{
+    border: 1.5px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer
+{
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.footer p{
+ 
+    margin-bottom: 0px;
+    color: #5f5a5a;
+    
+}
+hr{
+    height:0.5px;
+    width:320px; 
+    border:none; 
+    background-color:#484141;
+}
+
+
+
+.containers{
+    display: flex;
+    background-color:#333;
+    justify-content: center;
+    padding: 6px; 
+}
+.boxone,.boxtwo{
+ padding: 3px;
+font-size: small;
+}
+.boxone {
+     background-color: #e9e5e5;
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+}
+.boxtwo{
+     background-color: #ffffff;
+     margin-right: 10px;
+    border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+}
+@media only screen and (max-width: 768px) {
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+.secondhalf{
+    padding-left: 0px;
+}
+.secondhalf{
+   width: 70%;
+}
+
+.projects{
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+   
+  
+}
+.projectsinfo {
+  width: 70%;
+
+}
+
+.projects img
+{
+    margin-top: 20px;
+    height: 150px;
+    width: auto;
+  
+}
+
+}
+@media only screen and (min-width: 769px)and (max-width: 991px) {
+    .projects{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+   
+
+}
+.projectsinfo {
+  width: 40%;
+
+}
+.projects img
+{
+    margin-top: 20px;
+    height: 240px;
+    width: auto;
+  
+}
+}
