@@ -180,6 +180,7 @@ font-size: small;
     .projects{
     display: flex;
     margin-top: 2.19rem;
+    margin-left: 5rem;
     justify-content: space-evenly;
 }
 .projectsinfo {
